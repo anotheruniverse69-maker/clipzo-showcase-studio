@@ -15,9 +15,10 @@ export const categories: ReelCategory[] = [
 export const identity = 'Video Editor / Educator / Creative Partner';
 export const navigation = ['Home', 'Portfolio', 'About', 'Contact'];
 export const contacts = [
-  { name: 'WhatsApp', value: '+91 6267305466', href: `https://wa.me/916267305466?text=${encodeURIComponent('Hi Raj, I found your portfolio and would like to discuss a project.')}`, external: true },
-  { name: 'Instagram', value: '@starkeyy08', href: 'https://www.instagram.com/starkeyy08/', external: true },
-  { name: 'Gmail', value: 'zoneg1477@gmail.com', href: 'mailto:zoneg1477@gmail.com?subject=Project%20enquiry', external: false },
+  { name: 'Call', value: '+91 91743 95148', href: 'tel:+919174395148', external: false },
+  { name: 'WhatsApp', value: '+91 92437 27694', href: `https://wa.me/91924372694?text=${encodeURIComponent('Hi, I found your portfolio and would like to discuss a project.')}`, external: true },
+  { name: 'Instagram', value: '@clipzo.studio__', href: 'https://www.instagram.com/clipzo.studio__/', external: true },
+  { name: 'Gmail', value: 'harsh.91743@gmail.com', href: 'mailto:harsh.91743@gmail.com?subject=Project%20enquiry', external: false },
 ];
 export function embedUrl(source: NonNullable<ReelSource>) {
   if (source.type === 'youtube') return `https://www.youtube.com/embed/${source.url}?autoplay=1&mute=1&loop=1&playlist=${source.url}&rel=0&playsinline=1`;
