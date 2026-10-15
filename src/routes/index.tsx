@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { ArrowRight, ArrowUpRight, MonitorPlay, Smartphone, PanelsTopLeft, Waypoints, Youtube, Sparkles, MessageCircle, Instagram, Mail } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, MonitorPlay, Smartphone, PanelsTopLeft, Waypoints, Youtube, Sparkles, Phone, MessageCircle, Instagram, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Header, Loader, usePageMotion } from '@/components/studio/chrome';
 import { ReelRow } from '@/components/studio/reels';
@@ -29,7 +29,7 @@ const services = [
   { name: 'YouTube Editing', icon: Youtube }, { name: 'Creative Content', icon: Sparkles },
 ];
 const tools = [['Pr', 'Premiere Pro'], ['Ae', 'After Effects'], ['Dv', 'DaVinci Resolve'], ['Ps', 'Photoshop'], ['Au', 'Audition'], ['Cc', 'CapCut']];
-const channelIcons = [MessageCircle, Instagram, Mail];
+const channelIcons = [Phone, MessageCircle, Instagram, Mail];
 function Index() {
   usePageMotion();
   return <div className="studio-page"><Loader /><Header /><main>
