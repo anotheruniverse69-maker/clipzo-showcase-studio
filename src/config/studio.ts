@@ -20,6 +20,11 @@ export const contacts = [
   { name: 'Instagram', value: '@clipzo.studio__', href: 'https://www.instagram.com/clipzo.studio__/', external: true },
   { name: 'Gmail', value: 'harsh.91743@gmail.com', href: 'mailto:harsh.91743@gmail.com?subject=Project%20enquiry', external: false },
 ];
+export const stats = [
+  { value: '50+', label: 'Happy Clients' },
+  { value: '100+', label: 'Projects Completed' },
+  { value: '3+', label: 'Years Experience' },
+];
 export function embedUrl(source: NonNullable<ReelSource>) {
   if (source.type === 'youtube') return `https://www.youtube.com/embed/${source.url}?autoplay=1&mute=1&loop=1&playlist=${source.url}&rel=0&playsinline=1`;
   if (source.type === 'instagram') return `${source.url.replace(/\/$/, '')}/embed/?autoplay=1`;

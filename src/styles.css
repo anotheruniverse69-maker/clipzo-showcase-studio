@@ -95,6 +95,16 @@ img { display: block; width: 100%; object-fit: cover; }
 .hero-figure { position: relative; overflow: hidden; aspect-ratio: 21/9; }
 .hero-image { height: 100%; transform: translateY(0) scale(1.12); will-change: transform; }
 .figure-caption { position: absolute; bottom: 0; left: 0; right: 0; padding: 40px 24px 20px; display: flex; justify-content: space-between; font-size: 10px; color: var(--image-caption); background: linear-gradient(transparent, var(--image-shade)); }
+.stats-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 72px; background: var(--secondary); border: 1px solid var(--border); list-style: none; }
+.stat { padding: 46px 40px; min-width: 0; border-left: 1px solid var(--border); }
+.stat:first-child { border-left: 0; }
+.stat-value { font-size: clamp(2.75rem, 5vw, 4.75rem); font-weight: 700; line-height: .9; letter-spacing: -.02em; color: var(--primary); transition: color 400ms var(--ease); }
+.stat-label { margin-top: 16px; font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted-foreground); }
+.stat:hover { background: color-mix(in oklab, var(--card) 45%, transparent); }
+.stat:hover .stat-value { color: var(--accent); }
+.stat[data-reveal] { transition: opacity 1s var(--ease), transform 1s var(--ease), background-color 400ms var(--ease), color 400ms var(--ease); }
+.stat[data-reveal]:not(.revealed):nth-child(2) { transition-delay: 90ms; }
+.stat[data-reveal]:not(.revealed):nth-child(3) { transition-delay: 180ms; }
 [data-reveal="fade"] { opacity: 0; transform: translateY(26px); transition: opacity 1s var(--ease), transform 1s var(--ease); }
 [data-reveal="fade"].revealed { opacity: 1; transform: translateY(0); }
 [data-reveal="clip"] { clip-path: inset(0 99.9% 0 0); transition: clip-path 1.2s var(--ease); }

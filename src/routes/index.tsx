@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight, MonitorPlay, Smartphone, PanelsTopLeft, Waypo
 import { Button } from '@/components/ui/button';
 import { Header, Loader, usePageMotion } from '@/components/studio/chrome';
 import { ReelRow } from '@/components/studio/reels';
-import { categories, contacts, identity, navigation } from '@/config/studio';
+import { categories, contacts, identity, navigation, stats } from '@/config/studio';
 import hero from '@/assets/hero.jpg.asset.json';
 import about from '@/assets/about.jpg';
 
