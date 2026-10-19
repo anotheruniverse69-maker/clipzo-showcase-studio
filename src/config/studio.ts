@@ -12,11 +12,11 @@ export const categories: ReelCategory[] = [
   { name: 'Delivery shoots', reels: [reel1, reel2, reel3, reel4, reel5].map(asset => ({ type: 'video' as const, url: asset.url })) as ReelCategory['reels'] },
   ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })),
 ];
-export const identity = 'Video Editor / Educator / Creative Partner';
+export const identity = 'Content Creator / Creative Partner';
 export const navigation = ['Home', 'Portfolio', 'About', 'Contact'];
 export const contacts = [
   { name: 'Call', value: '+91 91743 95148', href: 'tel:+919174395148', external: false },
-  { name: 'WhatsApp', value: '+91 92437 27694', href: `https://wa.me/91924372694?text=${encodeURIComponent('Hi, I found your portfolio and would like to discuss a project.')}`, external: true },
+  { name: 'WhatsApp', value: '+91 92437 27694', href: `https://wa.me/919243727694?text=${encodeURIComponent('Hi, I found your portfolio and would like to discuss a project.')}`, external: true },
   { name: 'Instagram', value: '@clipzo.studio__', href: 'https://www.instagram.com/clipzo.studio__/', external: true },
   { name: 'Gmail', value: 'harsh.91743@gmail.com', href: 'mailto:harsh.91743@gmail.com?subject=Project%20enquiry', external: false },
 ];
