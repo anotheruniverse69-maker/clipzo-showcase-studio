@@ -22,7 +22,7 @@ export const contacts = [
 ];
 export const stats = [
   { value: '50+', label: 'Happy Clients' },
-  { value: '100+', label: 'Projects Completed' },
+  { value: '1k+', label: 'Projects Completed' },
   { value: '3+', label: 'Years Experience' },
 ];
 export function embedUrl(source: NonNullable<ReelSource>) {
