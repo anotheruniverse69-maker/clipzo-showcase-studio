@@ -21,7 +21,7 @@ export const contacts = [
   { name: 'Gmail', value: 'harsh.91743@gmail.com', href: 'mailto:harsh.91743@gmail.com?subject=Project%20enquiry', external: false },
 ];
 export const stats = [
-  { value: '50+', label: 'Happy Clients' },
+  { value: '100+', label: 'Happy Clients' },
   { value: '1k+', label: 'Projects Completed' },
   { value: '3+', label: 'Years Experience' },
 ];
