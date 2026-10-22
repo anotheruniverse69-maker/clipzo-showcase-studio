@@ -1,17 +1,22 @@
-import reel1 from '@/assets/ya464e.webm.asset.json';
-import reel2 from '@/assets/vad98e.webm.asset.json';
-import reel3 from '@/assets/lwggeb.webm.asset.json';
-import reel4 from '@/assets/c2l7k8.webm.asset.json';
-import reel5 from '@/assets/gkg80c.webm.asset.json';
 
 export type ReelSource = { type: 'video' | 'videas' | 'youtube' | 'instagram'; url: string } | null;
 export type ReelCategory = { name: string; reels: [ReelSource, ReelSource, ReelSource, ReelSource, ReelSource] };
+
 export const categories: ReelCategory[] = [
-  { name: 'Home operating', reels: [{ type: 'videas', url: 'https://app.videas.fr/embed/media/78a9f0c1-964b-4054-8bb9-eff2f4abf3e7/?title=false&logo=false&thumbnail_duration=false&autoplay=true' }, null, null, null, null] },
-  { name: 'Corporate sessions', reels: [{ type: 'youtube', url: '4pe5dm5R4wU' }, null, null, null, null] },
-  { name: 'Delivery shoots', reels: [reel1, reel2, reel3, reel4, reel5].map(asset => ({ type: 'video' as const, url: asset.url })) as ReelCategory['reels'] },
-  ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })),
+  {
+    name: 'Home operating',
+    reels: [
+      { type: 'videas', url: 'https://fembed.co/embed/F_1aKlhZC4-RS' },
+      null, null, null, null
+    ]
+  },
+  { name: 'Corporate sessions', reels: [null, null, null, null, null] },
+  { name: 'Delivery shoots', reels: [null, null, null, null, null] },
+  ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
+    name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })
+  ),
 ];
+
 export const identity = 'Content Creator / Creative Partner';
 export const navigation = ['Home', 'Portfolio', 'About', 'Services', 'Contact'];
 export const contacts = [
