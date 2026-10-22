@@ -61,7 +61,7 @@ export function ReelCard({ source, index, category }: { source: ReelSource; inde
           playsInline
           preload="none"
           className={playing ? 'is-playing' : ''}
-          onPlaying={() => setPlaying(true)}
+          onPlaying={() => {   if (video.current) video.current.muted = muted;   setPlaying(true); }}
           onPause={() => setPlaying(false)}
           onError={() => setFailed(true)}
           aria-label={`${category} Reel ${number} video`}
