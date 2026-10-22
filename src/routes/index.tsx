@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Header, Loader, usePageMotion } from '@/components/studio/chrome';
 import { ReelRow } from '@/components/studio/reels';
 import { aboutBio, aboutFacts, categories, contacts, identity, navigation, stats } from '@/config/studio';
-import hero from '@/assets/hero.jpg.asset.json';
+import hero from '@/assets/hero.jpg';
 import about from '@/assets/about.jpg';
 
 const title = 'CLIPZO STUDIO — Content Creator';
@@ -15,9 +15,7 @@ export const Route = createFileRoute('/')({
     { title }, { name: 'description', content: description },
     { property: 'og:title', content: title }, { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' }, { property: 'og:url', content: '/' },
-    { property: 'og:image', content: `https://clipzo-studio.lovable.app${hero.url}` },
     { name: 'twitter:card', content: 'summary_large_image' }, { name: 'twitter:title', content: title }, { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: `https://clipzo-studio.lovable.app${hero.url}` },
   ], links: [{ rel: 'canonical', href: '/' }] }),
 });
 function SectionHeading({ label, title: heading }: { label: string; title: string }) {
@@ -37,7 +35,7 @@ function Index() {
       <p className="eyebrow"><span className="gold-square" />{identity}</p>
       <h1 className="display hero-title" aria-label="Ideas edited for real impact.">{['IDEAS', 'EDITED', 'FOR REAL', 'IMPACT.'].map(line => <span className="line-mask" key={line}><span>{line}</span></span>)}</h1>
       <div className="hero-bottom"><p className="hero-tagline" data-reveal="fade">Video editing that tells stories, builds brands and gets results.</p><Button variant="studio" asChild className="hero-cta"><a href="#portfolio">View Portfolio <ArrowRight /></a></Button></div>
-      <figure className="hero-figure" data-reveal="clip"><img className="hero-image" src={hero.url} width={1200} height={640} fetchPriority="high" alt="Editing workstation with an ultrawide monitor showing a video timeline" /><figcaption className="figure-caption"><span>Frame 001 / Timeline</span><span>Cut · Reveal · Frame · Zoom · Fade</span></figcaption></figure>
+      <figure className="hero-figure" data-reveal="clip"><img className="hero-image" src={hero} width={1200} height={640} fetchPriority="high" alt="Editing workstation with an ultrawide monitor showing a video timeline" /><figcaption className="figure-caption"><span>Frame 001 / Timeline</span><span>Cut · Reveal · Frame · Zoom · Fade</span></figcaption></figure>
       <ul className="stats-strip" aria-label="Studio statistics">{stats.map(stat => <li className="stat" data-reveal="fade" key={stat.label}><p className="stat-value">{stat.value}</p><p className="stat-label">{stat.label}</p></li>)}</ul>
     </section>
     <section id="portfolio" className="section container"><SectionHeading label="01 / Selected Work" title="Selected Work" />{categories.map((category, index) => <ReelRow key={category.name} category={category} index={index} />)}</section>
