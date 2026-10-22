@@ -13,3 +13,4 @@
 - Keep reel sources and contact channels in one browser-safe configuration module, so content updates cannot drift across sections.
 - Put portfolio motion and theme styling in the global design system; use ref-driven scroll effects to avoid per-frame React renders.
 - Initialize the persisted theme in the root document head before painting; keep page-specific SEO metadata only in the index route.
+- Bundle the homepage hero JPEG via a Vite image import, because external Cloudflare Pages deployments do not serve Lovable's relative asset-service paths.
