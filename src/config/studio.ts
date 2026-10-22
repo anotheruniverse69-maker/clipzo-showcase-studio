@@ -20,6 +20,12 @@ export const contacts = [
   { name: 'Instagram', value: '@clipzo.studio__', href: 'https://www.instagram.com/clipzo.studio__/', external: true },
   { name: 'Gmail', value: 'harsh.91743@gmail.com', href: 'mailto:harsh.91743@gmail.com?subject=Project%20enquiry', external: false },
 ];
+export const aboutBio = 'I turn raw footage into stories people actually finish watching. From short-form reels to full-length films, every cut, grade and mix is built to hold attention and move your brand forward.';
+export const aboutFacts: [string, string][] = [
+  ['Based in', 'India'],
+  ['Focus', 'Short & Long Form'],
+  ['Available for', 'Freelance & Collabs'],
+];
 export const stats = [
   { value: '100+', label: 'Happy Clients' },
   { value: '1k+', label: 'Projects Completed' },
