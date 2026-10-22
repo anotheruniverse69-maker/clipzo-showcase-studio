@@ -15,11 +15,34 @@ export const categories: ReelCategory[] = [
   {
     name: 'Delivery shoots',
     reels: [
-      { type: 'video', url: 'https://files.catbox.moe/ya464e.mp4' },
-      { type: 'video', url: 'https://files.catbox.moe/vad98e.mp4' },
-      { type: 'video', url: 'https://files.catbox.moe/lwggeb.mp4' },
-      { type: 'video', url: 'https://files.catbox.moe/c2l7k8.mp4' },
-      { type: 'video', url: 'https://files.catbox.moe/gkg80c.mp4' }
+
+export const categories: ReelCategory[] = [
+  {
+    name: 'Home operating',
+    reels: [null, null, null, null, null]
+  },
+  {
+    name: 'Corporate sessions',
+    reels: [null, null, null, null, null]
+  },
+  {
+    name: 'Delivery shoots',
+    reels: [
+      {
+        type: 'videas',
+        url: 'https://go.screenpal.com/player/cO631inytTy?ff=1&ahc=1&dcc=1&tl=1&bg=transparent&share=1&download=1&embed=1&cl=1'
+      },
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
+    name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })
+  ),
+];
+
     ]
   },
   ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
