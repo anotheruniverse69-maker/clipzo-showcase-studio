@@ -20,7 +20,10 @@ export const categories: ReelCategory[] = [
         type: 'video',
         url: 'https://yourimageshare.com/ib/orC5QJnqTf.mp4'
       },
-      null,
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/orC5QJnqTf'
+      },
       null,
       null,
       null
