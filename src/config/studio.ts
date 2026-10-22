@@ -17,8 +17,8 @@ export const categories: ReelCategory[] = [
     name: 'Delivery shoots',
     reels: [
       {
-        type: 'videas',
-        url: 'https://go.screenpal.com/player/cO631inytTy?ff=1&ahc=1&dcc=1&a=1&tl=1&bg=transparent&share=1&download=1&embed=1&cl=1'
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/orC5QJnqTf.mp4'
       },
       null,
       null,
