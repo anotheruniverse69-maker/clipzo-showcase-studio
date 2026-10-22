@@ -13,7 +13,7 @@ export const categories: ReelCategory[] = [
   ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })),
 ];
 export const identity = 'Content Creator / Creative Partner';
-export const navigation = ['Home', 'Portfolio', 'Services', 'About', 'Contact'];
+export const navigation = ['Home', 'About', 'Services', 'Portfolio', 'Contact'];
 export const contacts = [
   { name: 'Call', value: '+91 91743 95148', href: 'tel:+919174395148', external: false },
   { name: 'WhatsApp', value: '+91 92437 27694', href: `https://wa.me/919243727694?text=${encodeURIComponent('Hi, I found your portfolio and would like to discuss a project.')}`, external: true },
