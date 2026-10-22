@@ -2,20 +2,31 @@
 export type ReelSource = { type: 'video' | 'videas' | 'youtube' | 'instagram'; url: string } | null;
 export type ReelCategory = { name: string; reels: [ReelSource, ReelSource, ReelSource, ReelSource, ReelSource] };
 
+
 export const categories: ReelCategory[] = [
   {
     name: 'Home operating',
+    reels: [null, null, null, null, null]
+  },
+  {
+    name: 'Corporate sessions',
+    reels: [null, null, null, null, null]
+  },
+  {
+    name: 'Delivery shoots',
     reels: [
-      { type: 'videas', url: 'https://fembed.co/embed/F_1aKlhZC4-RS' },
-      null, null, null, null
+      { type: 'video', url: 'https://files.catbox.moe/ya464e.mp4' },
+      { type: 'video', url: 'https://files.catbox.moe/vad98e.mp4' },
+      { type: 'video', url: 'https://files.catbox.moe/lwggeb.mp4' },
+      { type: 'video', url: 'https://files.catbox.moe/c2l7k8.mp4' },
+      { type: 'video', url: 'https://files.catbox.moe/gkg80c.mp4' }
     ]
   },
-  { name: 'Corporate sessions', reels: [null, null, null, null, null] },
-  { name: 'Delivery shoots', reels: [null, null, null, null, null] },
   ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
     name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })
   ),
 ];
+
 
 export const identity = 'Content Creator / Creative Partner';
 export const navigation = ['Home', 'Portfolio', 'About', 'Services', 'Contact'];
