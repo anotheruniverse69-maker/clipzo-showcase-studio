@@ -12,19 +12,7 @@ export const categories: ReelCategory[] = [
     name: 'Corporate sessions',
     reels: [null, null, null, null, null]
   },
-  {
-    name: 'Delivery shoots',
-    reels: [
 
-export const categories: ReelCategory[] = [
-  {
-    name: 'Home operating',
-    reels: [null, null, null, null, null]
-  },
-  {
-    name: 'Corporate sessions',
-    reels: [null, null, null, null, null]
-  },
   {
     name: 'Delivery shoots',
     reels: [
@@ -43,12 +31,6 @@ export const categories: ReelCategory[] = [
   ),
 ];
 
-    ]
-  },
-  ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
-    name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })
-  ),
-];
 
 
 export const identity = 'Content Creator / Creative Partner';
