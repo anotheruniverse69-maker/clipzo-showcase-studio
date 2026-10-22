@@ -15,9 +15,9 @@ export const Route = createFileRoute('/')({
     { title }, { name: 'description', content: description },
     { property: 'og:title', content: title }, { property: 'og:description', content: description },
     { property: 'og:type', content: 'website' }, { property: 'og:url', content: '/' },
-    { property: 'og:image', content: `https://id-preview--efdd82f0-4a3b-4cba-bf8c-cff45d8beda6.lovable.app${hero.url}` },
+    { property: 'og:image', content: `https://clipzo-studio.lovable.app${hero.url}` },
     { name: 'twitter:card', content: 'summary_large_image' }, { name: 'twitter:title', content: title }, { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: `https://id-preview--efdd82f0-4a3b-4cba-bf8c-cff45d8beda6.lovable.app${hero.url}` },
+    { name: 'twitter:image', content: `https://clipzo-studio.lovable.app${hero.url}` },
   ], links: [{ rel: 'canonical', href: '/' }] }),
 });
 function SectionHeading({ label, title: heading }: { label: string; title: string }) {
