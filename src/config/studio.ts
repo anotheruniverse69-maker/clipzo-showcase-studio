@@ -18,7 +18,7 @@ export const categories: ReelCategory[] = [
     reels: [
       {
         type: 'videas',
-        url: 'https://go.screenpal.com/player/cO631inytTy?ff=1&ahc=1&dcc=1&tl=1&bg=transparent&share=1&download=1&embed=1&cl=1'
+        url: 'https://go.screenpal.com/player/cO631inytTy?ff=1&ahc=1&dcc=1&a=1&tl=1&bg=transparent&share=1&download=1&embed=1&cl=1'
       },
       null,
       null,
