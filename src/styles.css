@@ -209,3 +209,24 @@ html { scroll-behavior: smooth; scroll-padding-top: 64px; }
   [data-reveal] { opacity: 1 !important; transform: none !important; clip-path: none !important; }
   .hero-title .line-mask > span { transform: none; } .intro-loader { display: none; } .tools-track { transform: none; }
 }
+
+.reel-frame {
+  position: relative;
+}
+
+.reel-mute-button {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  cursor: pointer;
+}
