@@ -67,9 +67,55 @@ export const categories: ReelCategory[] = [
       }
     ]
   },
-  ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
-    name => ({ name, reels: [null, null, null, null, null] as ReelCategory['reels'] })
-  ),
+  
+  {
+    name: 'Wedding Content',
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
+  },
+  {
+    name: 'Podcast',
+    reels: [null, null, null, null, null],
+  },
+  {
+    name: 'Couple',
+    reels: [null, null, null, null, null],
+  },
+  {
+    name: 'Program',
+    reels: [null, null, null, null, null],
+  },
+  {
+    name: 'Educational',
+    reels: [null, null, null, null, null],
+  },
+  {
+    name: 'Faceless Edit',
+    reels: [null, null, null, null, null],
+  },
+  {
+    name: 'Events',
+    reels: [null, null, null, null, null],
+  },
+
 ];
 
 
