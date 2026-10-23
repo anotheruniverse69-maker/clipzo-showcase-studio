@@ -24,7 +24,7 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/00000.mp4'
+        url: 'https://anonmp4.art/embed/xcJQsTqgcFSqnjj.mp4'
       },
       {
         type: 'video',
