@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Volume2, VolumeX } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { embedUrl, type ReelCategory, type ReelSource } from '@/config/studio';
+import { hasConfiguredSource } from '@/components/studio/presentation';
 
 export function ReelCard({ source, index, category }: { source: ReelSource; index: number; category: string }) {
   const card = useRef<HTMLElement>(null);
@@ -89,7 +90,7 @@ export function ReelCard({ source, index, category }: { source: ReelSource; inde
   </article>;
 }
 
-export function ReelRow({ category, index }: { category: ReelCategory; index: number }) {
+export function ReelRow({ category, displayName = category.name }: { category: ReelCategory; displayName?: string }) {
   const row = useRef<HTMLDivElement>(null);
   const [edges, setEdges] = useState({ start: true, end: false });
 
@@ -122,19 +123,19 @@ export function ReelRow({ category, index }: { category: ReelCategory; index: nu
 
   return <div className="reel-category">
     <div className="reel-row-heading">
-      <h3><span>{String(index + 1).padStart(2, '0')}</span>{category.name}</h3>
+      <h3>{displayName}</h3>
       <div className="reel-arrows">
-        <Button variant="studioIcon" size="icon" aria-label={`Previous ${category.name} reel`} disabled={edges.start} onClick={() => scroll(-1)}><ArrowLeft /></Button>
-        <Button variant="studioIcon" size="icon" aria-label={`Next ${category.name} reel`} disabled={edges.end} onClick={() => scroll(1)}><ArrowRight /></Button>
+        <Button variant="studioIcon" size="icon" aria-label={`Previous ${displayName} reel`} disabled={edges.start} onClick={() => scroll(-1)}><ArrowLeft /></Button>
+        <Button variant="studioIcon" size="icon" aria-label={`Next ${displayName} reel`} disabled={edges.end} onClick={() => scroll(1)}><ArrowRight /></Button>
       </div>
     </div>
-    <div ref={row} className="reel-list" tabIndex={0} role="region" aria-label={`${category.name} reels`} onKeyDown={event => {
+    <div ref={row} className="reel-list" tabIndex={0} role="region" aria-label={`${displayName} reels`} onKeyDown={event => {
       if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
         event.preventDefault();
         scroll(event.key === 'ArrowRight' ? 1 : -1);
       }
     }}>
-      {category.reels.map((source, i) => <ReelCard key={i} source={source} index={i} category={category.name} />)}
+      {category.reels.map((source, i) => hasConfiguredSource(source) ? <ReelCard key={i} source={source} index={i} category={displayName} /> : null)}
     </div>
   </div>;
 }
