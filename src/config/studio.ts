@@ -93,27 +93,141 @@ export const categories: ReelCategory[] = [
   },
   {
     name: 'Podcast',
-    reels: [null, null, null, null, null],
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
   },
   {
     name: 'Couple',
-    reels: [null, null, null, null, null],
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
   },
   {
     name: 'Program',
-    reels: [null, null, null, null, null],
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
   },
   {
     name: 'Educational',
-    reels: [null, null, null, null, null],
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
   },
   {
     name: 'Faceless Edit',
-    reels: [null, null, null, null, null],
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
   },
   {
     name: 'Events',
-    reels: [null, null, null, null, null],
+    reels: [{
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0000.mp4'
+      }],
   },
 
 ];
