@@ -210,15 +210,15 @@ export const categories: ReelCategory[] = [
     name: 'Events',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/LAdHgx8Y7F.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/QEbma49Dgb.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/IpLxX3riAR.mp4'
       },
       {
         type: 'video',
