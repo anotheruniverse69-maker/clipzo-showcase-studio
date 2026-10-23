@@ -24,9 +24,18 @@ export const categories: ReelCategory[] = [
         type: 'video',
         url: 'https://yourimageshare.com/ib/iDwKKTURrl.mp4'
       },
-      null,
-      null,
-      null
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/pioRzeXdVa.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/0A7Ed50RH3.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/LireRTsgqg.mp4'
+      }
     ]
   },
   ...['Wedding Content', 'Podcast', 'Couple', 'Program', 'Educational', 'Faceless Edit', 'Events'].map(
