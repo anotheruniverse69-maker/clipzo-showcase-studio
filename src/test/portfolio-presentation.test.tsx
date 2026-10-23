@@ -51,4 +51,20 @@ describe('Protected portfolio presentation', () => {
       expect(displayedContacts.find(item => item.name === contact.name)).toBe(contact);
     }
   });
+
+  it('hides only the requested slots and keeps original numbering', () => {
+    const expected: Record<string, string[]> = {
+      'Wedding Content': ['01', '02', '03', '04'],
+      'Corporate sessions': ['01', '02', '03'],
+      'Couple': ['01', '02'],
+      'Podcast': ['01', '02', '03'],
+      'Delivery shoots': ['01', '02', '03', '04', '05'],
+    };
+    for (const [name, numbers] of Object.entries(expected)) {
+      const category = categories.find(item => item.name === name)!;
+      const { container, unmount } = render(<ReelRow category={category} />);
+      expect(Array.from(container.querySelectorAll('.reel-caption span:first-child')).map(el => el.textContent)).toEqual(numbers.map(n => `Reel ${n}`));
+      unmount();
+    }
+  });
 });
