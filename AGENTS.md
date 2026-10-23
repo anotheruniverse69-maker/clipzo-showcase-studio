@@ -14,3 +14,4 @@
 - Put portfolio motion and theme styling in the global design system; use ref-driven scroll effects to avoid per-frame React renders.
 - Initialize the persisted theme in the root document head before painting; keep page-specific SEO metadata only in the index route.
 - Bundle the homepage hero JPEG via a Vite image import, because external Cloudflare Pages deployments do not serve Lovable's relative asset-service paths.
+- Apply portfolio category ordering, display aliases, empty-slot filtering, and WhatsApp overrides only in the presentation layer; the protected studio configuration and ReelCard player must remain untouched.
