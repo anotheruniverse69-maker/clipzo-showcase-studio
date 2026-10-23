@@ -176,7 +176,7 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/KvDqQerEii.mp4'
       },
       {
         type: 'video',
