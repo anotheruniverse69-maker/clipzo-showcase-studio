@@ -6,7 +6,8 @@ export type ReelCategory = { name: string; reels: [ReelSource, ReelSource, ReelS
 export const categories: ReelCategory[] = [
   {
     name: 'Home operating',
-    reels:  {
+    reels: [ 
+      {
         type: 'video',
         url: 'https://yourimageshare.com/ib/oOwd4bUNzR.mp4'
       },
