@@ -10,7 +10,27 @@ export const categories: ReelCategory[] = [
   },
   {
     name: 'Corporate sessions',
-    reels: [null, null, null, null, null]
+    reels: [      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/rOajhiDjMK.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/TQPFBXbiYL.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/iFlkE7EAoE.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/00000.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/00000.mp4'
+      }
+]
   },
 
   {
