@@ -6,11 +6,19 @@ export type ReelCategory = { name: string; reels: [ReelSource, ReelSource, ReelS
 export const categories: ReelCategory[] = [
   {
     name: 'Home operating',
-    reels: [null, null, null, null, null]
+    reels:  {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/oOwd4bUNzR.mp4'
+      },
+       {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/b3FCXkTlS7.mp4'
+      }, null, null, null]
   },
   {
     name: 'Corporate sessions',
-    reels: [      {
+    reels: [     
+      {
         type: 'video',
         url: 'https://yourimageshare.com/ib/rOajhiDjMK.mp4'
       },
