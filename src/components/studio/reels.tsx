@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Volume2, VolumeX } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { embedUrl, type ReelCategory, type ReelSource } from '@/config/studio';
-import { hasConfiguredSource } from '@/components/studio/presentation';
+import { hasConfiguredSource, isHiddenSlot } from '@/components/studio/presentation';
 
 export function ReelCard({ source, index, category }: { source: ReelSource; index: number; category: string }) {
   const card = useRef<HTMLElement>(null);
@@ -135,7 +135,7 @@ export function ReelRow({ category, displayName = category.name }: { category: R
         scroll(event.key === 'ArrowRight' ? 1 : -1);
       }
     }}>
-      {category.reels.map((source, i) => hasConfiguredSource(source) ? <ReelCard key={i} source={source} index={i} category={displayName} /> : null)}
+      {category.reels.map((source, i) => hasConfiguredSource(source) && !isHiddenSlot(category.name, i) ? <ReelCard key={i} source={source} index={i} category={displayName} /> : null)}
     </div>
   </div>;
 }

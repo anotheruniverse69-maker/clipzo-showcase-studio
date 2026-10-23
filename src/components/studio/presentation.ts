@@ -18,6 +18,18 @@ export const portfolioCategories = categoryDisplayOrder.flatMap(([name, displayN
   return category ? [{ category, displayName }] : [];
 });
 
+// Zero-based slot indices hidden from the UI only; config data stays untouched.
+const hiddenSlots: Record<string, number[]> = {
+  'Wedding Content': [4],
+  'Corporate sessions': [3, 4],
+  'Couple': [2, 3, 4],
+  'Podcast': [3, 4],
+};
+
+export function isHiddenSlot(categoryName: string, index: number): boolean {
+  return hiddenSlots[categoryName]?.includes(index) ?? false;
+}
+
 export function hasConfiguredSource(source: ReelSource): boolean {
   return Boolean(source && source.url.trim() && ['video', 'videas', 'youtube', 'instagram'].includes(source.type));
 }
