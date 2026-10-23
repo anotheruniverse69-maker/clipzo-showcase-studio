@@ -72,19 +72,19 @@ export const categories: ReelCategory[] = [
     name: 'Wedding Content',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/NhVpmjkLHp.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/WyLItwICmA.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/kk5EVxUozU.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/ryTGZrxcyw.mp4'
       },
       {
         type: 'video',
@@ -95,15 +95,15 @@ export const categories: ReelCategory[] = [
     name: 'Podcast',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/niB4Ul1AMv.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/9LAbwthPpJ.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/NvTuyt0RpZ.mp4'
       },
       {
         type: 'video',
@@ -118,11 +118,11 @@ export const categories: ReelCategory[] = [
     name: 'Couple',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/1k901itzf5.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/V2ClZQQgsg.mp4'
       },
       {
         type: 'video',
@@ -141,38 +141,38 @@ export const categories: ReelCategory[] = [
     name: 'Program',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/gXmyXUWXlD.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/SJNeznVCY1.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/xF0lI9v9qz.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/coqjwvKgaL.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/bKqollJ3ur.mp4'
       }],
   },
   {
     name: 'Educational',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/vNRn2y5Nu5.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/rNdU2jV2Dl.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/qOVZHgOZGD.mp4'
       },
       {
         type: 'video',
@@ -187,19 +187,19 @@ export const categories: ReelCategory[] = [
     name: 'Faceless Edit',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/5xQiQDkksm.mp4'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/anNC8FOkqQ.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/kKNTFHc4hg.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/VztmQp9hDc.mp4'
       },
       {
         type: 'video',
