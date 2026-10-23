@@ -180,7 +180,7 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/V8nvPs7YIb.mp4'
       }],
   },
   {
@@ -222,11 +222,11 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/QucIKudjvV.mp4'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/LpywVfrByA.mp4'
       }],
   },
 
