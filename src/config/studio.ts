@@ -1,5 +1,9 @@
 
-export type ReelSource = { type: 'video' | 'videas' | 'youtube' | 'instagram'; url: string } | null;
+export type ReelSource = {
+  type: 'video' | 'videos' | 'youtube' | 'instagram';
+  url: string;
+  thumbnail?: string;
+} | null;
 export type ReelCategory = { name: string; reels: [ReelSource, ReelSource, ReelSource, ReelSource, ReelSource] };
 
 
