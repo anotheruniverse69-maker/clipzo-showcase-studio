@@ -13,7 +13,7 @@ afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.unstubAllGlobals(); });
 
 describe('Protected portfolio presentation', () => {
   it('orders nine original category objects without copying or changing their reels', () => {
-    const names = ['Wedding Content', 'Corporate sessions', 'Delivery shoots', 'Events', 'Program', 'Educational', 'Home operating', 'Couple', 'Podcast'];
+    const names = ['Corporate sessions', 'Events', 'Delivery shoots', 'Educational', 'Wedding Content', 'Program', 'Home operating', 'Podcast', 'Couple'];
     expect(portfolioCategories.map(item => item.category.name)).toEqual(names);
     for (const { category } of portfolioCategories) {
       expect(category).toBe(categories.find(item => item.name === category.name));
