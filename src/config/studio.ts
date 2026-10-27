@@ -13,11 +13,13 @@ export const categories: ReelCategory[] = [
     reels: [ 
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/oOwd4bUNzR.mp4'
+        url: 'https://yourimageshare.com/ib/oOwd4bUNzR.mp4',
+        thumbnail: '/Home operating 1.jpg'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/b3FCXkTlS7.mp4'
+        url: 'https://yourimageshare.com/ib/b3FCXkTlS7.mp4',
+        thumbnail: '/2.jpg'
       }, null, null, null]
   },
   {
