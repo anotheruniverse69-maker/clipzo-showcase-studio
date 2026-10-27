@@ -19,8 +19,8 @@ export const Route = createFileRoute('/')({
     { name: 'twitter:card', content: 'summary_large_image' }, { name: 'twitter:title', content: title }, { name: 'twitter:description', content: description },
   ], links: [{ rel: 'canonical', href: '/' }] }),
 });
-function SectionHeading({ label, title: heading }: { label: string; title: string }) {
-  return <div className="section-heading" data-reveal="fade"><p className="section-label">{label}</p><h2 className="display section-title">{heading}</h2></div>;
+function SectionHeading({ label, title: heading }: { label: string; title?: string }) {
+  return <div className="section-heading" data-reveal="fade"><p className="section-label">{label}</p>{heading ? <h2 className="display section-title">{heading}</h2> : null}</div>;
 }
 const services = [
   { name: 'Video Editing', icon: MonitorPlay }, { name: 'Short Form', icon: Smartphone },
