@@ -52,7 +52,7 @@ export function ReelCard({ source, index, category }: { source: ReelSource; inde
           <span className="empty-number">{number} / 05</span>
         </div>
       ) : source.type === 'video' ? <>
-        <span className="reel-loading">REEL {number}</span>
+        {!playing && source.thumbnail && (   <img     src={source.thumbnail}     alt={`${category} Reel ${number} thumbnail`}     className="reel-thumbnail"   /> )}
         <video
           ref={video}
           src={visible ? source.url : undefined}
