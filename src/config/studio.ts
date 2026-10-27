@@ -59,7 +59,7 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0A7Ed50RH3.mp4'
+        url: 'https://yourimageshare.com/ib/y666X365oo.mp4'
       },
       {
         type: 'video',
@@ -141,7 +141,7 @@ export const categories: ReelCategory[] = [
     name: 'Program',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/gXmyXUWXlD.mp4'
+        url: 'https://yourimageshare.com/ib/Njl2cqncZZ.mp4'
       },
        {
         type: 'video',
@@ -218,7 +218,7 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/IpLxX3riAR.mp4'
+        url: 'https://yourimageshare.com/ib/Ehkbmp7DaB.mp4'
       },
       {
         type: 'video',
