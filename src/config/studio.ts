@@ -77,7 +77,7 @@ export const categories: ReelCategory[] = [
       {
         type: 'video',
         url: 'https://yourimageshare.com/ib/LireRTsgqg.mp4',
-        thumbnail: '/delivery-5.jpg'
+        thumbnail: '/delivery-5.png'
       }
     ]
   },
@@ -162,46 +162,56 @@ export const categories: ReelCategory[] = [
     name: 'Program',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/Njl2cqncZZ.mp4'
+        url: 'https://yourimageshare.com/ib/Njl2cqncZZ.mp4',
+        thumbnail: '/Program-1.jpg'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/coqjwvKgaL.mp4'
+        url: 'https://yourimageshare.com/ib/coqjwvKgaL.mp4',
+        thumbnail: '/Program-2.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/bKqollJ3ur.mp4'
+        url: 'https://yourimageshare.com/ib/bKqollJ3ur.mp4',
+        thumbnail: '/Program-3.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/xF0lI9v9qz.mp4'
+        url: 'https://yourimageshare.com/ib/xF0lI9v9qz.mp4',
+        thumbnail: '/Program-4.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/SJNeznVCY1.mp4'
+        url: 'https://yourimageshare.com/ib/SJNeznVCY1.mp4',
+        thumbnail: '/Program-5.jpg'
       }],
   },
   {
     name: 'Educational',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/vNRn2y5Nu5.mp4'
+        url: 'https://yourimageshare.com/ib/vNRn2y5Nu5.mp4',
+        thumbnail: '/Educational-1.jpg'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/rNdU2jV2Dl.mp4'
+        url: 'https://yourimageshare.com/ib/rNdU2jV2Dl.mp4',
+        thumbnail: '/Educational-2.jpg' 
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/qOVZHgOZGD.mp4'
+        url: 'https://yourimageshare.com/ib/qOVZHgOZGD.mp4',
+        thumbnail: '/Educational-3.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/KvDqQerEii.mp4'
+        url: 'https://yourimageshare.com/ib/KvDqQerEii.mp4',
+        thumbnail: '/Educational-4.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/V8nvPs7YIb.mp4'
+        url: 'https://yourimageshare.com/ib/V8nvPs7YIb.mp4',
+        thumbnail: '/Educational-5.jpg'
       }],
   },
   {
@@ -231,23 +241,28 @@ export const categories: ReelCategory[] = [
     name: 'Events',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/LAdHgx8Y7F.mp4'
+        url: 'https://yourimageshare.com/ib/LAdHgx8Y7F.mp4',
+        thumbnail: '/Events-1.jpg'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/QEbma49Dgb.mp4'
+        url: 'https://yourimageshare.com/ib/QEbma49Dgb.mp4',
+        thumbnail: '/Events-2.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/Ehkbmp7DaB.mp4'
+        url: 'https://yourimageshare.com/ib/Ehkbmp7DaB.mp4',
+        thumbnail: '/Events-3.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/QucIKudjvV.mp4'
+        url: 'https://yourimageshare.com/ib/QucIKudjvV.mp4',
+        thumbnail: '/Events-4.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/LpywVfrByA.mp4'
+        url: 'https://yourimageshare.com/ib/LpywVfrByA.mp4',
+        thumbnail: '/Events-5.jpg'
       }],
   },
 
