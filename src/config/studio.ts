@@ -26,14 +26,17 @@ export const categories: ReelCategory[] = [
       {
         type: 'video',
         url: 'https://yourimageshare.com/ib/rOajhiDjMK.mp4'
+        thumbnail: '/Corporate%20sessions%201.png'
       },
        {
         type: 'video',
         url: 'https://yourimageshare.com/ib/TQPFBXbiYL.mp4'
+         thumbnail: '/Corporate%20sessions%202.png'
       },
       {
         type: 'video',
         url: 'https://yourimageshare.com/ib/iFlkE7EAoE.mp4'
+        thumbnail: '/Corporate%20sessions%203.png'
       },
       {
         type: 'video',
