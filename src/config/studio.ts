@@ -114,15 +114,18 @@ export const categories: ReelCategory[] = [
     name: 'Podcast',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/niB4Ul1AMv.mp4'
+        url: 'https://yourimageshare.com/ib/niB4Ul1AMv.mp4',
+        thumbnail: '/Podcast-1.jpg' 
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/9LAbwthPpJ.mp4'
+        url: 'https://yourimageshare.com/ib/9LAbwthPpJ.mp4',
+        thumbnail: '/Podcast-2.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/NvTuyt0RpZ.mp4'
+        url: 'https://yourimageshare.com/ib/NvTuyt0RpZ.mp4',
+        thumbnail: '/Podcast-3.jpg'
       },
       {
         type: 'video',
