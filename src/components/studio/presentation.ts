@@ -2,15 +2,15 @@ import { categories, contacts, type ReelSource } from '@/config/studio';
 
 // Presentation only: keep the original categories, slots, and sources untouched.
 const categoryDisplayOrder = [
-  ['Wedding Content', 'WEDDING CONTENT'],
   ['Corporate sessions', 'CORPORATE SESSIONS'],
+  ['Events', 'EVENTS'],
   ['Delivery shoots', 'DELIVERY SHOOTS'],
-  ['Events', 'EVENT'],
-  ['Program', 'PROGRAM'],
   ['Educational', 'EDUCATIONAL'],
+  ['Wedding Content', 'WEDDING CONTENT'],
+  ['Program', 'PROGRAM'],
   ['Home operating', 'HOME OPENING'],
-  ['Couple', 'COUPLE'],
   ['Podcast', 'PODCAST'],
+  ['Couple', 'COUPLE'],
 ] as const;
 
 export const portfolioCategories = categoryDisplayOrder.flatMap(([name, displayName]) => {
