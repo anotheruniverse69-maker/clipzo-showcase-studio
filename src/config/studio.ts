@@ -26,17 +26,17 @@ export const categories: ReelCategory[] = [
       {
         type: 'video',
         url: 'https://yourimageshare.com/ib/rOajhiDjMK.mp4',
-        thumbnail: '/corporate-1.png'
+        thumbnail: '/corporate-2.png'
       },
        {
         type: 'video',
         url: 'https://yourimageshare.com/ib/TQPFBXbiYL.mp4',
-         thumbnail: '/corporate-2.png'
+         thumbnail: '/corporate-3.png'
       },
       {
         type: 'video',
         url: 'https://yourimageshare.com/ib/iFlkE7EAoE.mp4',
-        thumbnail: '/corporate-3.png'
+        thumbnail: '/corporate-1.png'
       },
       {
         type: 'video',
@@ -152,7 +152,11 @@ export const categories: ReelCategory[] = [
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/SJNeznVCY1.mp4'
+        url: 'https://yourimageshare.com/ib/coqjwvKgaL.mp4'
+      },
+      {
+        type: 'video',
+        url: 'https://yourimageshare.com/ib/bKqollJ3ur.mp4'
       },
       {
         type: 'video',
@@ -160,11 +164,7 @@ export const categories: ReelCategory[] = [
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/coqjwvKgaL.mp4'
-      },
-      {
-        type: 'video',
-        url: 'https://yourimageshare.com/ib/bKqollJ3ur.mp4'
+        url: 'https://yourimageshare.com/ib/SJNeznVCY1.mp4'
       }],
   },
   {
