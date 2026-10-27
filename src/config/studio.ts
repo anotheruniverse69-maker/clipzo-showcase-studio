@@ -14,7 +14,7 @@ export const categories: ReelCategory[] = [
       {
         type: 'video',
         url: 'https://yourimageshare.com/ib/oOwd4bUNzR.mp4',
-        thumbnail: '/Home operating 1.jpg'
+        thumbnail: '/Home-1.jpg'
       },
        {
         type: 'video',
@@ -56,23 +56,28 @@ export const categories: ReelCategory[] = [
     reels: [
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/orC5QJnqTf.mp4'
+        url: 'https://yourimageshare.com/ib/orC5QJnqTf.mp4',
+        thumbnail: '/delivery-1.jpg'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/iDwKKTURrl.mp4'
+        url: 'https://yourimageshare.com/ib/iDwKKTURrl.mp4',
+         thumbnail: '/delivery-2.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/pioRzeXdVa.mp4'
+        url: 'https://yourimageshare.com/ib/pioRzeXdVa.mp4',
+        thumbnail: '/delivery-3.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/y666X365oo.mp4'
+        url: 'https://yourimageshare.com/ib/y666X365oo.mp4',
+        thumbnail: '/delivery-4.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/LireRTsgqg.mp4'
+        url: 'https://yourimageshare.com/ib/LireRTsgqg.mp4',
+        thumbnail: '/delivery-5.jpg'
       }
     ]
   },
@@ -81,23 +86,28 @@ export const categories: ReelCategory[] = [
     name: 'Wedding Content',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/NhVpmjkLHp.mp4'
+        url: 'https://yourimageshare.com/ib/NhVpmjkLHp.mp4',
+        thumbnail: '/Wedding-1.jpg'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/WyLItwICmA.mp4'
+        url: 'https://yourimageshare.com/ib/WyLItwICmA.mp4',
+        thumbnail: '/Wedding-2.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/kk5EVxUozU.mp4'
+        url: 'https://yourimageshare.com/ib/kk5EVxUozU.mp4',
+        thumbnail: '/Wedding-3.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/ryTGZrxcyw.mp4'
+        url: 'https://yourimageshare.com/ib/ryTGZrxcyw.mp4',
+        thumbnail: '/Wedding-4.jpg'
       },
       {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/0000.mp4'
+        url: 'https://yourimageshare.com/ib/0000.mp4',
+        thumbnail: '/Wedding-5.jpg'
       }],
   },
   {
@@ -127,11 +137,13 @@ export const categories: ReelCategory[] = [
     name: 'Couple',
     reels: [{
         type: 'video',
-        url: 'https://yourimageshare.com/ib/1k901itzf5.mp4'
+        url: 'https://yourimageshare.com/ib/1k901itzf5.mp4',
+        thumbnail: '/Couple-1.png'
       },
        {
         type: 'video',
-        url: 'https://yourimageshare.com/ib/V2ClZQQgsg.mp4'
+        url: 'https://yourimageshare.com/ib/V2ClZQQgsg.mp4',
+        thumbnail: '/Couple-2.png'
       },
       {
         type: 'video',
