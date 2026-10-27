@@ -56,6 +56,7 @@ export function ReelCard({ source, index, category }: { source: ReelSource; inde
         <video
           ref={video}
           src={visible ? source.url : undefined}
+          poster={source.thumbnail}
           muted={muted}
           autoPlay
           loop
